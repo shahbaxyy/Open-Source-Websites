@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Explore the World</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-globe"></i>
+                <span>Wanderlust</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Your Next Adventure</h1>
+            <p class="hero-subtitle">Explore breathtaking destinations around the world</p>
+            <button class="cta-button">Start Exploring</button>
+        </div>
+        <div class="hero-video-bg">
+            <video autoplay muted loop>
+                <source src="https://videos.pexels.com/video-files/3195371/3195371-hd_1920_1080_30fps.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <h2>Plan Your Trip</h2>
+            <form class="search-form">
+                <div class="form-group">
+                    <label>Destination</label>
+                    <input type="text" placeholder="Where to?">
+                </div>
+                <div class="form-group">
+                    <label>Check In</label>
+                    <input type="date">
+                </div>
+                <div class="form-group">
+                    <label>Check Out</label>
+                    <input type="date">
+                </div>
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinations" class="destinations">
+        <h2 class="section-title">Featured Destinations</h2>
+        <div class="destinations-grid">
+            <div class="destination-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/400x500?text=Paris" alt="Paris">
+                    <div class="card-overlay">
+                        <h3>Paris, France</h3>
+                        <p>Experience romantic charm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/400x500?text=Tokyo" alt="Tokyo">
+                    <div class="card-overlay">
+                        <h3>Tokyo, Japan</h3>
+                        <p>Modern meets tradition</p>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/400x500?text=Dubai" alt="Dubai">
+                    <div class="card-overlay">
+                        <h3>Dubai, UAE</h3>
+                        <p>Luxury and adventure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="card-image">
+                    <img src="https://via.placeholder.com/400x500?text=Bali" alt="Bali">
+                    <div class="card-overlay">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Tropical paradise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Packages -->
+    <section id="packages" class="packages">
+        <h2 class="section-title">Our Travel Packages</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <div class="package-header">
+                    <span class="package-type">Adventure</span>
+                    <h3>Mountain Explorer</h3>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 7 Days & 6 Nights</li>
+                    <li><i class="fas fa-check"></i> Guided Tours</li>
+                    <li><i class="fas fa-check"></i> All Meals Included</li>
+                    <li><i class="fas fa-check"></i> Hotel Stay</li>
+                    <li><i class="fas fa-check"></i> Transportation</li>
+                </ul>
+                <div class="package-price">$1,299</div>
+                <button class="package-btn">Book Now</button>
+            </div>
+
+            <div class="package-card featured">
+                <div class="featured-badge">Popular</div>
+                <div class="package-header">
+                    <span class="package-type">Luxury</span>
+                    <h3>Island Paradise</h3>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 10 Days & 9 Nights</li>
+                    <li><i class="fas fa-check"></i> Private Beach Access</li>
+                    <li><i class="fas fa-check"></i> 5-Star Resort</li>
+                    <li><i class="fas fa-check"></i> Spa Services</li>
+                    <li><i class="fas fa-check"></i> Water Sports</li>
+                </ul>
+                <div class="package-price">$2,499</div>
+                <button class="package-btn">Book Now</button>
+            </div>
+
+            <div class="package-card">
+                <div class="package-header">
+                    <span class="package-type">Cultural</span>
+                    <h3>Historic Journey</h3>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 5 Days & 4 Nights</li>
+                    <li><i class="fas fa-check"></i> Museum Tours</li>
+                    <li><i class="fas fa-check"></i> Local Guides</li>
+                    <li><i class="fas fa-check"></i> Heritage Sites</li>
+                    <li><i class="fas fa-check"></i> City Tours</li>
+                </ul>
+                <div class="package-price">$899</div>
+                <button class="package-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about" class="about">
+        <h2 class="section-title">Why Choose Wanderlust</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-map-location-dot"></i>
+                </div>
+                <h3>Expert Destinations</h3>
+                <p>Curated travel experiences to the world's most beautiful locations</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Expert Guides</h3>
+                <p>Knowledgeable and passionate local guides for every tour</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-shield"></i>
+                </div>
+                <h3>Safe & Secure</h3>
+                <p>Your safety is our priority with comprehensive travel insurance</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <h3>Best Prices</h3>
+                <p>Competitive rates with no hidden charges</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer support for peace of mind</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>5-Star Reviews</h3>
+                <p>Trusted by thousands of happy travelers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Amazing experience! The guides were knowledgeable and the itinerary was perfect. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">JA</div>
+                    <div>
+                        <h4>John Anderson</h4>
+                        <p>Paris Trip</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Best vacation ever! The attention to detail and customer service was exceptional. Can't wait for the next trip!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div>
+                        <h4>Sarah Mitchell</h4>
+                        <p>Bali Getaway</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Professional, reliable, and unforgettable! Made all my travel dreams come true. Absolutely worth it!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MC</div>
+                    <div>
+                        <h4>Mike Chen</h4>
+                        <p>Tokyo Adventure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get exclusive deals and travel inspiration delivered to your inbox</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Wanderlust</h3>
+                <p>Your trusted partner for unforgettable travel experiences</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Wanderlust Travel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
